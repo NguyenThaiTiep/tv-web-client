@@ -1,5 +1,10 @@
 import React from "react";
+import DashboardLayout from "../../../containers/admin";
 
 export const AdminPage = () => {
-  return <div></div>;
+  return (
+    <div>
+      <DashboardLayout />
+    </div>
+  );
 };

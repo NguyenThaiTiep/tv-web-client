@@ -4,4 +4,5 @@ export const role = {
   BCN: "BCN",
   MEMBER: "M",
   SK: "SK",
+  MANAGER: "MANAGER",
 };

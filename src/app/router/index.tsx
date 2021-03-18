@@ -41,6 +41,7 @@ export const routes = [
   {
     path: "/admin",
     roleDefine: [],
+    name: "Quản lý",
     public: true,
     component: AdminPage,
   },
@@ -66,14 +67,7 @@ export const RoutesApp = () => {
     </Switch>
   );
 };
-interface RouterDto {
-  path: string;
-  roleDefine?: [];
-  public?: boolean;
-  name: string;
-  exact?: boolean;
-  component: any;
-}
+
 export const RouteItem = (props?: any) => {
   return <Route {...props}>{setTitleDocument(props.name)}</Route>;
 };
